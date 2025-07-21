@@ -1,0 +1,58 @@
+{
+    "name": "Lexm_8 txt uploader",
+    "description": "𝑻𝒆𝒙𝒕 𝑳𝒆𝒆𝒄𝒉 𝑽𝒊𝒅𝒆𝒐 𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒐𝒓 𝑭𝒐𝒓 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎",
+    "logo": "https://graph.org/file/e0c6c7e9f3e9f8f754c97-d1c031bc315defbe80.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "",
+    "success_url": "https://graph.org/file/e0c6c7e9f3e9f8f754c97-d1c031bc315defbe80.jpg",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
+            "value": "28483314",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
+            "value": "3130ecb103ece385f2c9eb9f9a000946",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑩𝒐𝒕 𝑻𝒐𝒌𝒆𝒏",
+            "value": "",
+            "required": true
+        },
+        "OWNER": {
+            "description": "𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙄𝘿",
+            "value": "7278998207",
+            "required": true
+        },
+        "CREDIT": {
+            "description": "𝙀𝙣𝙩𝙚𝙧 𝘾𝙧𝙚𝙙𝙞𝙩 𝙉𝙖𝙢𝙚 𝙞𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 6-8 𝙡𝙚𝙩𝙩𝙚𝙧𝙨",
+            "value": "@marcussss09",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+}
